@@ -32,7 +32,8 @@ Java 개발자 과정 프론트엔드 리포지토리
 - 프론트엔드 학습
     - Grid 레이아웃
     - 반응형 웹
-    - Javascript 기초
+    - Javascript
+    - jQuery
 
 4일차 그리드 레이아웃 포토갤러리
 
@@ -40,6 +41,6 @@ Java 개발자 과정 프론트엔드 리포지토리
 
 ## 5일차
 - 프론트엔드 학습
-    - Javascript 마무리
+    - js/jQuery 연동
     - Bootstrap 학습
     - 포트폴리오 웹사이트 만들기
