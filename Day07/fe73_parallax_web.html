@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Parallax Scrolling web</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+     <!-- 1. Bootstrap용 css CDN 추가 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/parallax.css'>
+    <link rel="icon" href="images/ui.ico">
+
+    <!-- jquery 추가 -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src='script/parallax.js'></script>
+</head>
+<body>
+    <header>
+        <h2 class="logo">Logo</h2>
+        <nav class="navigation">
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Section 영역 -->
+    <section class="parallax">
+        <img src="images/hill1.png" id="hill1"> <!-- 맨 뒤 -->
+        <img src="images/hill2.png" id="hill2">
+        <img src="images/hill3.png" id="hill3">
+        <img src="images/hill4.png" id="hill4">
+        <img src="images/hill5.png" id="hill5">
+        <img src="images/tree.png" id="tree">
+        <h2 id="text">Parallax Website</h2>
+        <img src="images/leaf.png" id="leaf">
+        <img src="images/plant.png" id="plant"> <!-- 맨 앞 -->
+    </section>
+
+    <section class="contents">
+        <h2>Parallax Scrolling Web</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veniam autem eius fuga, quae iure ab quis suscipit aliquam laboriosam eos expedita atque, tempora tenetur. Quod fuga sapiente iste magnam, suscipit nesciunt rerum. Facilis pariatur aspernatur consequatur harum vitae dicta vero reprehenderit laudantium saepe ab quibusdam a sequi distinctio tenetur, in beatae iure deserunt hic obcaecati! Praesentium facilis officia cupiditate accusamus, placeat vitae adipisci soluta quia, doloribus ullam nemo. Nisi molestias repellat sequi ut earum consectetur et sit laborum placeat nostrum recusandae explicabo laudantium harum vitae accusamus quae reprehenderit doloribus, esse assumenda officiis voluptatum eaque repudiandae? Sunt assumenda natus, quod quis consequatur ut neque. Fugiat cumque ratione, quae itaque commodi voluptates magni esse, reprehenderit eius temporibus, reiciendis veniam tempore? Nesciunt provident, numquam, est illo quos ipsam consequatur quis explicabo omnis dolores eaque similique laudantium saepe commodi dignissimos ad? Aut iusto dolor maiores recusandae placeat nisi consequatur, aperiam sapiente est tenetur modi enim porro soluta similique fugit consectetur laudantium dolorem sed, quod rerum? Nemo, impedit. In sapiente ad possimus aliquid consequatur minus inventore voluptas sequi tenetur officia recusandae dolore, culpa vero voluptate omnis enim aliquam dolorum ducimus? Illo molestiae veritatis eveniet atque in, ipsam delectus assumenda, commodi nesciunt labore rerum debitis cumque ullam voluptatibus amet repellendus. Distinctio facere quaerat ut tenetur quis harum numquam necessitatibus quisquam sint eveniet error iusto quidem a maxime, cum amet officia minus voluptates delectus suscipit dignissimos maiores sequi beatae! Eius praesentium ea doloribus iste aliquid nobis similique dolore reiciendis cupiditate, sapiente repellendus. Aut magnam porro, animi totam molestiae in aspernatur! Inventore ullam ab voluptates natus quidem nemo aperiam voluptas quo enim provident exercitationem, error, rerum, repellendus praesentium sed fugiat? Laudantium, in est quod vel corporis vitae id praesentium hic nemo neque ipsa molestiae fugiat optio temporibus cupiditate veniam vero ratione voluptatem dolorem sint ad labore amet.<br><br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore saepe voluptates modi quo, iste quae? Officia expedita earum quidem iusto at, modi dolor rerum dicta, blanditiis esse distinctio sed iure ducimus consequatur. Est, minima illo. Animi obcaecati ex labore perferendis natus! Alias voluptates qui aspernatur quos inventore aperiam quo corporis iste asperiores! Ipsa iusto beatae deleniti itaque earum voluptates ea modi eligendi corrupti. Magni eos tempore possimus. Laudantium animi impedit sed reprehenderit aliquid sit nisi id enim eveniet ut fuga odio, ipsam delectus, quod nam reiciendis eaque omnis quis cumque suscipit nobis ex debitis! Odit asperiores maiores vitae doloremque eaque?
+        </p>
+    </section>
+
+    <footer>
+        <nav>
+            <a href="#">Blog</a>
+            <span> | </span>
+            <a href="#">Github</a>
+        </nav>
+        <p>
+            <span>author : Codehal</span><span> | </span>
+            <span>editor : Dayeon Yoon</span><span> | </span>
+            <span>email : yoondy07@naver.com</span><br>
+            <span>Copyright &copy; 2022. Codehal. All Rights Reserved.</span>
+        </p>
+    </footer>
+
+    <!-- 2. Bootstrap용 js는 body에 위치해야 함! -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous">
+        </script>
+</body>
+</html>
