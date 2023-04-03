@@ -100,7 +100,7 @@ SB Admin Page 중간단계
 
 SB Admin Page 마무리
 
-<img src="https://raw.githubusercontent.com/yoondy07/basic-html-2023/main/image/portfolio5.png" width="700">
+<img src="https://raw.githubusercontent.com/yoondy07/basic-html-2023/main/image/portfolio5.png" width="700"> <!-- 나중에 동영상 올리기 -->
 
 ## 11일차
 - 프론트엔드 실습
